@@ -1,22 +1,24 @@
-# Simple Dukaan Inventory + Billing System
+# Simple Inventory + Billing System
 
-Ek bilkul seedha-sada, lightweight aur desi style mein bana **Inventory Management + Billing** software – chhoti dukaan, kirana store, stationery shop ya tuition centre ke liye perfect!
+A super lightweight, no-nonsense **Inventory Management & POS (Point of Sale)** system made with pure Python – perfect for small shops, kirana stores, stationery shops, mobile recharge counters, or anyone who just wants a dead-simple billing system.
 
 ### Features
-- Add new items (naam, quantity, price)
-- Quantity ya price update karo
-- Item delete karo
-- Kisi item ko search karo
-- Billing karo jaise real counter pe – GST bhi lagta hai (18%)
-- Stock automatically update hota hai sale ke baad
-- Sab data `inventory.json` file mein save hota hai – band karo ya PC restart karo, data safe rahega!
+- Add new items (name, quantity, price)
+- Update quantity or price of existing items
+- Delete items
+- Search any item instantly
+- Full billing system with 18% GST calculation
+- Stock automatically reduces after every sale
+- All data saved in `inventory.json` – survives restarts and crashes
+- Zero dependencies – runs on any computer with Python
 
-### Kaise Chalaye (Super Easy)
-1. Python install hona chahiye (3.6 ya usse upar)
-2. Terminal/Command Prompt kholo
-3. Code wali folder mein jao
-4. Yeh command maaro:
+### How to Run
+1. Make sure Python 3.6+ is installed
+2. Download/clone this folder
+3. Open terminal/command prompt in the folder
+4. Run:
 
 ```bash
-python inventory.py# Vityarthy-project
+python inventory.py
+Vityarthy-project
 Inventory + Billing 
